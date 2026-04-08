@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cbb095fdccae904b8d61db722816dad
+guid: 807b648b029b3f944add3cf8c9f9d16d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TestGround
+      name: snore0
       rect:
         serializedVersion: 2
         x: 0
@@ -105,20 +105,20 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb3a04ba27622648ab1edf18e97d55e
-      internalID: 1426237209
+      spriteID: a83db51d9caba5c45b0f8158b0ed42b2
+      internalID: 158756921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestGroundRock
+      name: snore1
       rect:
         serializedVersion: 2
         x: 8
@@ -126,14 +126,56 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78adcece0ac4ed64b9e60bbce90271d8
-      internalID: -1334317878
+      spriteID: 8dc3605f55163de41bdfce991b48d55e
+      internalID: 1210251817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snore2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 248
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95df786288d25e6499f752f6ee2f492e
+      internalID: 921493406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snore3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 248
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f662b0e8f5a92641a8f5acc00d4a9e0
+      internalID: 735660079
       vertices: []
       indices: 
       edges: []
@@ -141,7 +183,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 56aeea0158e50e544a0446957b1d6885
+    spriteID: e7941a064ffbf954da4f97773b033750
     internalID: 0
     vertices: []
     indices: 
@@ -149,8 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TestGround: 1426237209
-      TestGroundRock: -1334317878
+      snore0: 158756921
+      snore1: 1210251817
+      snore2: 921493406
+      snore3: 735660079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
