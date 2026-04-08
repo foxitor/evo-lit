@@ -24,4 +24,14 @@ public class Storage : MonoBehaviour {
     }
     GameObject shareParticlePackage(int indx) { return ParticleStorage[indx]; }
     GameObject sharePrefabPackage(int indx) { return Prefabs[indx]; }
+
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.T)) {
+            if(Time.timeScale < 2f) {
+                Time.timeScale = 10.0f;
+            } else {
+                Time.timeScale = 1f;
+            }
+        }
+    }
 }

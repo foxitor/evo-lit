@@ -44,3 +44,6 @@ TagManager:
   - name: Creature
     uniqueID: 1606943941
     locked: 0
+  - name: CreatureUpper
+    uniqueID: 4077395913
+    locked: 0

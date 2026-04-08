@@ -33,13 +33,13 @@ public class CreatureMovement : MonoBehaviour {
     }
     void manageWonder() {
         moveTimeout = 0;
-        Debug.Log("Target Reassembled ");
+        //Debug.Log("Target Reassembled ");
         for (int i = 0; i < 10; i++) {
             Vector2 candidate = (Vector2)transform.position + UnityEngine.Random.insideUnitCircle * 2;
             Vector2 direction = candidate - (Vector2)transform.position; 
             float distance = direction.magnitude;
             RaycastHit2D hitObstacle = Physics2D.Raycast(transform.position, direction.normalized, distance, LayerMask.NameToLayer("obst"));
-            Debug.DrawRay(transform.position, direction.normalized, Color.red, distance);
+            Debug.DrawRay(transform.position, direction.normalized * distance, Color.blue, 2);
             if (hitObstacle.collider == null) { 
                 targetDirection = direction; 
                 MoveTarget = candidate; 
@@ -58,5 +58,6 @@ public class CreatureMovement : MonoBehaviour {
 
 public enum MovementMethods {
     wonder,
-    run
+    hunt,
+    scare
 }
